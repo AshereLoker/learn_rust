@@ -1,0 +1,13 @@
+/home/ashere/Documents/projects/learn_rust/chat_client/target/debug/deps/log-9d4175df97b9365c.d: /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/lib.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/macros.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/serde.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/mod.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/error.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/key.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/source.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/value.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/__private_api.rs
+
+/home/ashere/Documents/projects/learn_rust/chat_client/target/debug/deps/liblog-9d4175df97b9365c.rmeta: /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/lib.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/macros.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/serde.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/mod.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/error.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/key.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/source.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/value.rs /home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/__private_api.rs
+
+/home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/lib.rs:
+/home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/macros.rs:
+/home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/serde.rs:
+/home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/mod.rs:
+/home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/error.rs:
+/home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/key.rs:
+/home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/source.rs:
+/home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/kv/value.rs:
+/home/ashere/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/__private_api.rs:

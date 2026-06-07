@@ -1,0 +1,1 @@
+/home/ashere/Documents/projects/learn_rust/chat_client/target/debug/client: /home/ashere/Documents/projects/learn_rust/chat_client/src/main_client.rs /home/ashere/Documents/projects/learn_rust/chat_client/src/stream_utils.rs

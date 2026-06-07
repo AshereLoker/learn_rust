@@ -1,0 +1,1 @@
+fn(std::os::unix::net::SocketAddr) -> std::os::unix::net::SocketAddr {<std::os::unix::net::SocketAddr as From<std::os::unix::net::SocketAddr>>::from}
