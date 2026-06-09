@@ -5,7 +5,7 @@ use std::{
     sync::{Arc, Mutex},
     thread,
 };
-use stream_utils::{Clients, SharedStream, Side, read_stream, write_steam};
+use stream_utils::{Clients, SharedStream, Side, read_stream, write_stream};
 
 use crate::stream_utils::{send_all, send_all_exclude};
 
@@ -41,7 +41,11 @@ fn main() -> std::io::Result<()> {
                 let thread_client = client.clone();
 
                 thread::spawn(move || {
-                    let _ = manage_connection(thread_client, thread_clients);
+                    let thread_result = manage_connection(thread_client, thread_clients);
+                    match thread_result {
+                        Ok(()) => {}
+                        Err(e) => {}
+                    }
                 });
             }
             Err(e) => {
@@ -62,7 +66,7 @@ fn manage_connection(client: SharedStream, clients: Clients) -> std::io::Result<
 
     {
         let mut stream = client.lock().unwrap();
-        write_steam(&mut stream, welcome_message)?;
+        write_stream(&mut stream, welcome_message)?;
         println!("[{}] Client connected from {:?}", side, stream.peer_addr());
     }
 

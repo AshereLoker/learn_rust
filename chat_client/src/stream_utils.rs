@@ -64,7 +64,7 @@ pub fn read_stream(
     }
 }
 
-pub fn write_steam(stream: &mut TcpStream, message: String) -> std::io::Result<()> {
+pub fn write_stream(stream: &mut TcpStream, message: String) -> std::io::Result<()> {
     stream.write_all(message.as_bytes())?;
     stream.flush()?;
 
@@ -78,11 +78,11 @@ pub fn send_all_exclude(
     message: &String,
 ) -> std::io::Result<()> {
     let clients = clients.lock().unwrap();
-    for (_, l_client) in clients.iter().enumerate() {
+    for l_client in clients.iter() {
         if !Arc::ptr_eq(&client, l_client) {
             let message = format!("{}", message);
             let mut stream = l_client.lock().unwrap();
-            write_steam(&mut stream, message)?;
+            write_stream(&mut stream, message)?;
         }
     }
 
@@ -95,7 +95,7 @@ pub fn send_all(clients: Clients, message: &String) -> std::io::Result<()> {
     for l_client in clients.iter() {
         let message = format!("{}", message);
         let mut stream = l_client.lock().unwrap();
-        write_steam(&mut stream, message)?;
+        write_stream(&mut stream, message)?;
     }
 
     Ok(())

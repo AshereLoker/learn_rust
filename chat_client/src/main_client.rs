@@ -5,7 +5,7 @@ use std::{
     sync::{Arc, Mutex},
     thread,
 };
-use stream_utils::{Side, read_stream, write_steam};
+use stream_utils::{Side, read_stream, write_stream};
 
 // use std::net::SocketAddr;
 
@@ -59,7 +59,7 @@ fn main() -> std::io::Result<()> {
     );
     {
         let mut stream = client.lock().unwrap();
-        write_steam(&mut stream, name_buf)?;
+        write_stream(&mut stream, name_buf)?;
     }
 
     thread::spawn(move || {
@@ -75,7 +75,7 @@ fn main() -> std::io::Result<()> {
         stdin.read_line(&mut buf)?;
         {
             let mut stream = client.lock().unwrap();
-            write_steam(&mut stream, buf)?;
+            write_stream(&mut stream, buf)?;
         }
     }
 }
